@@ -1,5 +1,5 @@
 /*This is the css file*/
-.diff1
+/*.diff1
 {
 	background-color: black;
 }
@@ -7,4 +7,25 @@
 .diff2
 {
 	background-color: blue;
+}
+*/
+
+.center
+{
+	text-align: center;
+}
+
+#jumbo-h1 
+{	
+	position: absolute;
+	color: white;
+	top: 50% ;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.jumbotron
+{
+	background-image: url("https://static1.squarespace.com/static/53c07b3ce4b02bb571b3ac7f/53c07cdfe4b003563993742d/53c07e45e4b02bb571b3af6c/1405124189920/web+cover+pic+mock+up_small.jpg?format=1500w");
+	height: 500px;
 }
