@@ -72,3 +72,15 @@
 	background-color: #F8F8F8 !important;
 	border-color: #E7E7E7 !important;
 }
+
+.login-signup
+{
+	margin-top: 40px !important;
+}
+
+.signUpForm
+{
+	text-align: center;
+	display: inline-block !important;
+}
+
