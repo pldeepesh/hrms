@@ -2,9 +2,10 @@
 <html>
 <head>
 	<title>Inventory management system - IMS</title>
-	<link rel="stylesheet" type="text/css" href="Styles/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-	<script type="text/javascript" src="script/script.js"></script>
+	<link rel="shortcut icon" type="image/png" href="res/icon.png">
+	<link rel="stylesheet" type="text/css" href="Styles/style.css">
 </head>
 <body>
 	<nav class="navbar navbar-default">
@@ -13,12 +14,12 @@
 				<a href="index.html" class="navbar-brand">HRMS</a>
 			</div>
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="#" id="Home">Home</a></li>
+				<li class="active"><a href="#Home" id="Home">Home</a></li>
 				<li><a href="#" id="Our-offerings">Our offerings</a></li>
 				<li><a href="#" id="Pricing">Pricing</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li><button class="btn btn-primary btn-align">Login/Sign Up</button></li>
+				<li><button class="btn btn-primary btn-align" onclick="getInView()">Login/Sign Up</button></li>
 			</ul>
 		</div>
 	</nav>	
@@ -27,12 +28,14 @@
 			<h1 class="center" id="jumbo-h1">Hotel Inventory management system</h1>
 		</div>
 	</section>
+	<section id="login">
 	<div class="col-md-6 diff1 center">
 		<p> this is first mod</p>
 	</div>
 	<div class="col-md-6 diff2 center">
 		<p> this is second mod</p>
 	</div>
+	</section>
 	<!-- <img src="res/jumbotron-bg.jpg" > -->
 </body>
 </html>
