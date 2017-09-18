@@ -3,39 +3,59 @@
 <head>
 	<title>Inventory management system - IMS</title>
 	<script type="text/javascript" src="js/script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="shortcut icon" type="image/png" href="res/icon.png">
 	<link rel="stylesheet" type="text/css" href="Styles/style.css">
 </head>
 <body>
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="index.html" class="navbar-brand">HRMS</a>
+				<a href="#Home" class="navbar-brand">HRMS</a>
+				<button class="navbar-toggle" data-toggle="collapse" data-target="#navHeaderCollapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
 			</div>
-			<ul class="nav navbar-nav">
-				<li class="active"><a href="#Home" id="Home">Home</a></li>
-				<li><a href="#" id="Our-offerings">Our offerings</a></li>
-				<li><a href="#" id="Pricing">Pricing</a></li>
-			</ul>
-			<ul class="nav navbar-nav navbar-right">
-				<li><button class="btn btn-primary btn-align" onclick="getInView()">Login/Sign Up</button></li>
-			</ul>
+			<div class="collapse navbar-collapse" id="navHeaderCollapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#Home" id="Home-1">Home</a></li>
+					<li><a href="#offerings" id="Our-offerings">Our offerings</a></li>
+					<li><a href="#" id="about">About</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><button class="btn btn-primary btn-align" onclick="getInView()">Login/Sign Up</button></li>
+				</ul>
+			</div>
 		</div>
 	</nav>	
 	<section id="Home">
 		<div class="jumbotron" id="jumbotron">
-			<h1 class="center" id="jumbo-h1">Hotel Inventory management system</h1>
+			<h1 class="center" id="jumbo-h1">Inventory management system</h1>
+			<h2 class="center" id="jumbo-h2">Hotels | Resturants | Bars</h2>
+		</div>
+		<div class="offerings">
+			<section id="offerings">
+				<h2 class="page-header center" id="offerings-1">OUR OFFERINGS</h2>
+				<div class="container col-xs-8 offerings-2">
+					<h3>We Specialize in the inventory management systems, primarily for Hotels, Resturants and Bars. The key features of our Hotel resorce management system (HRMS) include but not limited to Stock report, Alerts on less stock, analytics on sales and daily revenue. We represent this data in beautiful and insightful dashboard. This will ascend your business to new heights.</h3>
+				</div>
+				<div class="col-xs-4 center">
+					<h3>images will come here</h3>
+				</div>
+			</section>
 		</div>
 	</section>
 	<section id="login">
-	<div class="col-md-6 diff1 center">
-		<p> this is first mod</p>
-	</div>
-	<div class="col-md-6 diff2 center">
-		<p> this is second mod</p>
-	</div>
+		<div class="col-xs-6 diff1 center">
+			<p> this is first mod</p>
+		</div>
+		<div class="col-xs-6 diff2 center">
+			<p> this is second mod</p>
+		</div>
 	</section>
-	<!-- <img src="res/jumbotron-bg.jpg" > -->
 </body>
 </html>
