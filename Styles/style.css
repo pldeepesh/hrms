@@ -17,8 +17,9 @@
 
 #jumbo-h1 
 {	
+	display: block;
 	position: absolute;
-	color: white;
+	color: #fff;
 	top: 50% ;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -27,17 +28,47 @@
 .jumbotron
 {
 	/*background-image: url("res/jumbotron-bg.jpeg");*/
+	margin-top: 50px;
 	background-image: url("https://blogmedia.evbstatic.com/wp-content/uploads/blog/2016/03/29095521/Bar-inventory-spreadsheet-desktop.jpg");
 	height: 550px;
+	margin-bottom: 1px !important;
 }
 
-.navbar
+
+#jumbotron
 {
-	margin-bottom: 2px !important;
+	display: flex !important;
+}
+
+
+#jumbo-h2
+{	
+	display: inherit;
+	position: absolute;
+	color: #fff;
+	top: 65% ;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .btn-align
 {
 	margin-top: 10px;
-	margin-right: 7px;
+	margin-right: 5px;
+}
+
+.offerings
+{
+	margin-bottom: 10px !important;
+}
+
+.offerings-2
+{
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+
+.navbar-default {
+	background-color: #F8F8F8 !important;
+	border-color: #E7E7E7 !important;
 }
