@@ -26,13 +26,18 @@
 
 .jumbotron
 {
-	background-image: url("https://static1.squarespace.com/static/53c07b3ce4b02bb571b3ac7f/53c07cdfe4b003563993742d/53c07e45e4b02bb571b3af6c/1405124189920/web+cover+pic+mock+up_small.jpg?format=1500w");
-	height: 500px;
+	/*background-image: url("res/jumbotron-bg.jpeg");*/
+	background-image: url("https://blogmedia.evbstatic.com/wp-content/uploads/blog/2016/03/29095521/Bar-inventory-spreadsheet-desktop.jpg");
+	height: 550px;
+}
+
+.navbar
+{
+	margin-bottom: 2px !important;
 }
 
 .btn-align
 {
-	top: 50%;
-	/*left:50%;*/
-	transform: translate(-50%)
+	margin-top: 10px;
+	margin-right: 7px;
 }
