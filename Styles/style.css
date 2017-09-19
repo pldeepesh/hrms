@@ -136,8 +136,14 @@ input[type="text"]
 .text
 {
 	margin-top: 10px;
+	margin-bottom: 20px !important;
 	text-align: center;
 	font-family: 'Encode Sans Expanded', sans-serif;
 	flex-wrap: wrap;
 	overflow: hidden;
+}
+
+.offer-text
+{
+	font-family: 'Dosis', sans-serif;
 }
