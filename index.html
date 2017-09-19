@@ -8,6 +8,7 @@
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="shortcut icon" type="image/png" href="res/icon.png">
 	<link rel="stylesheet" type="text/css" href="Styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -51,43 +52,93 @@
 			</div>
 		</section>
 	</div>
+	<div class="seperator">
+		
+	</div>
 	<div class="login-signup container-fluid">
 		<section id="login">
 			<div class="col-xs-6 diff1 center">
 				<h2 class="page-header center">Sign up for the world of insights</h2>
 				<h3 class="center">Sign up</h3>
-				<form id="signUpForm">
-					<div>
-					<label>First Name:</label><input type="text" name="firstname" id="fname">
+				
+				<!-- sign up form -->
+				<form id="signUpForm" class="form-horizantal center">
+					<div class="form-group">
+						<div class="col-xs-offset-2 col-xs-8">
+							<input class = "form-control" type="text" name="firstname" id="fname" placeholder="First Name">
+						</div>
 					</div>
-					<div>
-					<label>Last Name:</label><input type="text" name="firstname" id="lname">
+					<div class="form-group">
+						<div class="col-xs-offset-2 col-xs-8">
+							<input class = "form-control" type="text" name="firstname" id="lname" placeholder="Last Name">
+						</div>
 					</div>
-					<div>
-					<label>Establishment Name:</label><input type="text" name="Establishment name" id="ename">
+					<div class="form-group">
+						<div class="col-xs-offset-2 col-xs-8">
+							<input class = "form-control" type="text" name="Establishment name" id="ename" placeholder="Establishment Name">
+						</div>
 					</div>
-					<div>
-					<label>email:</label><input type="text" name="Establishment name" id="ename">
+					<div class="form-group">
+						<div class="col-xs-offset-2 col-xs-8">
+							<input class = "form-control" type="email" name="Establishment name" id="ename" placeholder="Email id">
+						</div>
 					</div>
-					<div>
-					<label>Password:</label><input type="Password" name="Password" id="pword">
+					<div class="form-group">
+						<div class="col-xs-offset-2 col-xs-8">
+							<input class = "form-control" type="Password" name="Password" id="pword" placeholder="password">
+						</div>
 					</div>
-					<div>
-					<label>re enter password:</label><input type="password" name="password2" id="password2" >
+					<div class="form-group">
+						<div class="col-xs-offset-2 col-xs-8">
+							<input class = "form-control" type="password" name="password2" id="password2" placeholder="re-enter password">
+						</div>
 					</div>
-					<div>
-					<input type="button" name="submit" value="submit">
+					<div class="col-xs-offset-3 col-xs-6">
+						<input type="button" name="submit" value="SIGN UP" class="btn btn-primary">
 					</div>
 				</form>
 			</div>
+
+			<!-- Login form -->
 			<div class="col-xs-6 diff2 center">
 				<h2 class="page-header center">Already have an account?</h2>
 				<h3 class="center">Login</h3>
-				<form id ="loginForm">
-					
+				<form id ="loginForm" class="form-horizantal center" >
+					<div class="form-group">
+						<div class="col-xs-offset-2 col-xs-8">
+							<input type="text" name="email" placeholder="Email" class="form-control">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-xs-offset-2 col-xs-8">
+							<input type="password" name="password" placeholder="password" class="form-control">
+						</div>
+					</div>
+					<div class="col-xs-offset-3 col-xs-6">
+						<input type="button" name="submit" value="LOGIN" class="btn btn-primary">
+					</div>
 				</form>
 			</div>
 		</section>
+	</div>
+
+	<!-- seperator -->
+	<div class="seperator" id="form-sep">
+		<div class="col-xs-offset-1 col-xs-2 text">
+			<h4>SALES REPORT</h4>
+		</div>
+		<div class="col-xs-2 text">
+			<h4>EASY UI</h4>
+		</div>
+		<div class="col-xs-2 text">
+			<h4>MANAGE INVENTORY</h4>
+		</div>
+		<div class="col-xs-2 text">
+			<h4>ANALYTICS</h4>
+		</div>
+		<div class="col-xs-2 text">
+			<h4>STOCK ALERTS</h4>
+		</div>
 	</div>
 </body>
 </html>
