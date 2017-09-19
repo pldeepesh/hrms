@@ -1,18 +1,19 @@
 /*This is the css file*/
-/*.diff1
+.diff1
 {
-	background-color: black;
+	border-right: 1px solid black;
 }
 
 .diff2
 {
-	background-color: blue;
+	border-left: 1px solid black;
+	height: 415px;
 }
-*/
+
 
 .center
 {
-	text-align: center;
+	text-align: center !important;
 }
 
 #jumbo-h1 
@@ -57,11 +58,6 @@
 	margin-right: 5px;
 }
 
-.offerings
-{
-	margin-bottom: 10px !important;
-}
-
 .offerings-2
 {
 	letter-spacing: 1px;
@@ -84,3 +80,64 @@
 	display: inline-block !important;
 }
 
+input
+{
+	margin-top: 3px;
+	margin-bottom: 2px;
+	text-align: center;
+}
+
+
+.my-center
+{
+	position: absolute !important;
+	top: 50%
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+
+.features-wrapper
+{
+	background-color: #000 !important;
+	border-top: 1px dotted black;
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+	
+.feature-text
+{
+	display: inline-block;
+	float: left;
+	padding-right: 50px;
+	padding-left: 20px;
+	border-right: 1px  grey;
+}
+
+input[type="text"]
+{
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+.seperator
+{
+	height: 60px;
+	max-height: 100px;
+	background-color: #DFDBF9;
+}
+
+#form-sep
+{
+	margin-top: 2px;
+}
+
+.text
+{
+	margin-top: 10px;
+	text-align: center;
+	font-family: 'Encode Sans Expanded', sans-serif;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
